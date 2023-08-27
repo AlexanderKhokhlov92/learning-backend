@@ -1,14 +1,23 @@
 {
-  "name": "workout-app-v1",
-  "version": "1.0.0",
-  "description": "firs-version-without-react-native",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "workout"
-  ],
-  "author": "Khokhlov-A-A",
-  "license": "ISC"
+	"name": "workout-app-v1",
+	"version": "1.0.0",
+	"description": "firs-version-without-react-native",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"workout"
+	],
+	"author": "Khokhlov-A-A",
+	"license": "ISC",
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"colors": "^1.4.0",
+		"prettier": "^3.0.2"
+	},
+	"dependencies": {
+		"express": "^4.18.2"
+	}
 }
